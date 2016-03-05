@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.juleengraham.happybday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/clearsky"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/happy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:text="Happy"
+        android:textAllCaps="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/bday_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:text="Birthday"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/happy_text_view"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/superstar_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:text="You're a Superstar!"
+        android:layout_below="@id/bday_text_view"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/kind_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Kindness:"
+        android:layout_below="@id/superstar_text"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true" />
+
+    <RatingBar
+        android:id="@+id/kind_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5"
+        android:layout_below="@id/kind_text"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/humour_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Humour:"
+        android:layout_below="@id/kind_rating"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true" />
+
+    <RatingBar
+        android:id="@+id/humour_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="4.5"
+        android:layout_below="@id/humour_text"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:id="@+id/awesome_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Overall Awesomeness:"
+        android:layout_below="@id/humour_rating"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true" />
+
+    <RatingBar
+        android:id="@+id/awesome_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5"
+        android:layout_below="@id/awesome_text"
+        android:layout_alignParentRight="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="From Juleen"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#000000"
+        android:layout_marginRight="8dp"/>
+
+</RelativeLayout>
