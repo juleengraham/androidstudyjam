@@ -13,11 +13,12 @@
     <string name="order">ORDINARE</string>
 
     //MainActivity.java strings
-    <string name="name_colon">Nome: </string>
-    <string name="emailSubject">Just Java Order for</string>
-    <string name="add_whipped_cream">Add whipped cream? </string>
-    <string name="add_chocolate">Add chocolate? </string>
-    <string name="quantity_colon">Quantità: </string>
+    // \u0020 adds a white-space at the end of the string
+    <string name="name_colon">Nome:\u0020</string>
+    <string name="emailSubject">Just Java Order for\u0020</string>
+    <string name="add_whipped_cream">Add whipped cream?\u0020</string>
+    <string name="add_chocolate">Add chocolate?\u0020</string>
+    <string name="quantity_colon">Quantità:\u0020</string>
     <string name="total">Totale: $</string>
     <string name="thank_you">Grazie!</string>
     <string name="incrementError">You cannot order more than 100 coffees.</string>
