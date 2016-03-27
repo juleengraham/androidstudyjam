@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TechDiversity</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="join_now">New to TechDiversity? Join Now</string>
 </resources>
