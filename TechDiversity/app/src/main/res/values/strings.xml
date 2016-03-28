@@ -4,4 +4,10 @@
     <string name="sign_in">Sign In</string>
     <string name="forgot_password">Forgot Password?</string>
     <string name="join_now">New to TechDiversity? Join Now</string>
+
+    <string name="conferences">Conferences</string>
+    <string name="hackathons">Hackathons</string>
+    <string name="internships">Internships</string>
+    <string name="research">Research</string>
+    <string name="scholarships">Scholarships</string>
 </resources>
