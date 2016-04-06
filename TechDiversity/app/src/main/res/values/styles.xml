@@ -6,8 +6,45 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:gravity">center_horizontal</item>
     </style>
 
+
     <!-- Categories of opportunities will have this style -->
-    <style name="CategoriesTheme"
+    <style name="CategoriesTheme">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginBottom">16sp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Opportunities titles will have this style -->
+    <style name="OpportunityTitleTheme">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <!-- Action buttons for each button will have this style -->
+    <style name="DeadlineTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- Action buttons for each button will have this style -->
+    <style name="OpportunityDescriptionTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!-- Action buttons for each button will have this style -->
+    <style name="ActionButtonTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
 </resources>
