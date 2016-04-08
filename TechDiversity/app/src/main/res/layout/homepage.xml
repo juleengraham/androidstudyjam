@@ -4,29 +4,10 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <ImageView
-            android:layout_width="90sp"
-            android:layout_height="90sp"
-            android:src="@drawable/logo" />
-
-        <TextView
-            style="@style/AppTheme"
-            android:layout_marginBottom="8dp"
-            android:layout_weight="1"
-            android:text="@string/app_name" />
-    </LinearLayout>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:gravity="center_horizontal"
-        android:text="@string/motto"
-        android:textSize="25sp" />
+        android:layout_height="90sp"
+        android:src="@drawable/logo" />
 
     <TextView
         style="@style/CategoriesTheme"

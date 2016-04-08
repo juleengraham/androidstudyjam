@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="80sp"
+                android:src="@drawable/microsoft2" />
+
+            <TextView
+                style="@style/OpportunityTitleTheme"
+                android:textSize="20sp"
+                android:text="@string/microsoft_ds3" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/DeadlineTheme"
+            android:text="@string/deadline_apr15" />
+
+        <TextView
+            style="@style/OpportunityInfoTheme"
+            android:textSize="16sp"
+            android:text="@string/ds3_description" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/DeadlineTheme"
+                android:text="@string/eligibility_reqs"
+                android:layout_width="110dp"
+                android:textSize="20sp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/college_enrolled"/>
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/international_allowed"/>
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/cmpu_programming"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                style="@style/DeadlineTheme"
+                android:layout_width="110dp"
+                android:textSize="20sp"
+                android:text="@string/app_materials"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="left">
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/personal_statement"/>
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/references"/>
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/resume"/>
+
+                <TextView
+                    style="@style/ListTheme"
+                    android:text="@string/transcript"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <Button
+                style="@style/ActionButtonTheme"
+                android:text="@string/more_info"
+                android:onClick="openDS3Web"/>
+
+            <Button
+                style="@style/ActionButtonTheme"
+                android:text="@string/apply"
+                android:onClick="openDS3App"/>
+
+            <Button
+                style="@style/ActionButtonTheme"
+                android:text="@string/next"
+                android:onClick="setLayoutBuildiumScholarship"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

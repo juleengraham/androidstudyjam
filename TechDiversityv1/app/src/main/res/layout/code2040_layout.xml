@@ -1,44 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="90sp"
+            android:layout_height="80sp"
             android:src="@drawable/logo" />
 
-        <TextView
-            style="@style/OpportunityTitleTheme"
-            android:text="@string/microsoft_ds3" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="80sp"
+                android:src="@drawable/code2040" />
+
+            <TextView
+                style="@style/OpportunityTitleTheme"
+                android:text="@string/code2040" />
+        </LinearLayout>
 
         <TextView
             style="@style/DeadlineTheme"
-            android:text="@string/deadline" />
+            android:text="@string/app_closed" />
 
         <TextView
             style="@style/OpportunityInfoTheme"
-            android:text="@string/ds3_description" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                style="@style/SubheadingTheme"
-                android:text="@string/app_material"/>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"/>
-        </LinearLayout>
+            android:text="@string/code2040_description" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -47,10 +43,12 @@
 
             <Button
                 style="@style/ActionButtonTheme"
-                android:text="@string/apply" />
+                android:onClick="openCode2040Web"
+                android:text="@string/more_info" />
 
             <Button
                 style="@style/ActionButtonTheme"
+                android:onClick="setLayoutDS3"
                 android:text="@string/next" />
         </LinearLayout>
 

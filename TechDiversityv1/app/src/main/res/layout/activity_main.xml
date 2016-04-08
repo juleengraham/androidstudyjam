@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.juleengraham.techdiversityv1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:src="@drawable/tapia"
+            android:onClick="setLayoutTapia"/>
+
+        <TextView
+            style="@style/OpportunityTitle2Theme"
+            android:text="@string/tapia_conference_shortened" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/OpportunityTitle2Theme"
+            android:text="@string/hackathon" />
+
+        <ImageView
+            android:layout_width="90sp"
+            android:layout_height="90sp"
+            android:src="@drawable/diamondhacks"
+            android:onClick="setLayoutDiamondHacks"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="180sp"
+            android:layout_height="90sp"
+            android:src="@drawable/code2040"
+            android:onClick="setLayoutCode2040"/>
+
+        <TextView
+            style="@style/OpportunityTitle2Theme"
+            android:text="@string/code2040"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/OpportunityTitle2Theme"
+            android:text="@string/microsoft_ds3_shortened" />
+
+        <ImageView
+            android:layout_width="120sp"
+            android:layout_height="90sp"
+            android:src="@drawable/microsoft2"
+            android:onClick="setLayoutDS3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="180sp"
+            android:layout_height="90sp"
+            android:src="@drawable/buildium_logo"
+            android:onClick="setLayoutBuildiumScholarship"/>
+
+        <TextView
+            style="@style/OpportunityTitle2Theme"
+            android:text="@string/buildium_scholarship" />
+    </LinearLayout>
+</LinearLayout>

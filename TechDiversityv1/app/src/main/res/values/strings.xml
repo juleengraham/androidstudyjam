@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">TechDiversity</string>
+
+    <string name="conference">(Conference)</string>
+    <string name="hackathon">(Hackathon)</string>
+    <string name="fellowship">Fellowship</string>
+    <string name="internship">(Internship)</string>
+    <string name="research">(Research)</string>
+    <string name="scholarship">(Scholarship)</string>
+
+    <string name="code2040">Code2040 Fellowship</string>
+    <string name="code2040_description">CODE2040\'s flagship program places top performing Black and
+        Latino/a college level computer science students from around the country in an intensive
+        summer career accelerator in the San Francisco Bay Area. Students intern at top tech
+        companies and participate in a series of career building sessions on evenings and weekends.
+    </string>
+
+    <string name="app_closed">Application not open</string>
+    <string name="more_info">More Info</string>
+    <string name="apply">Apply</string>
+    <string name="next">Next</string>
+
+    <string name="microsoft_ds3">Microsoft Research Data Science Summer School</string>
+    <string name="microsoft_ds3_shortened">Microsoft DS3</string>
+    <string name="deadline_apr15">Deadline: April 15, 2016</string>
+    <string name="ds3_description">The Data Science Summer School (DS3) is an intensive,
+        eight-week hands-on introduction to data science for college students in the
+        New York City area. Each student receives a $5,000 stipend for participating in the program, as well
+        as a laptop.
+        DS3 includes both course work in data science and group research projects. The
+        summer school is taught by leading scientists at Microsoft Research, and is held
+        at the new Microsoft Research office in the heart of New York City.</string>
+
+    <string name="eligibility_reqs">Eligibility</string>
+    <string name="college_enrolled">- Must be currently enrolled in an undergradate program in the New York City area</string>
+    <string name="cmpu_programming">- A familiarity with computer programming and/or statistics is helpful</string>
+    <string name="international_allowed">- Open to international students</string>
+
+    <string name="app_materials">Application Materials</string>
+    <string name="personal_statement">- Personal Statement</string>
+    <string name="transcript">- (Unofficial) Transcript</string>
+    <string name="resume">- Resume/CV</string>
+    <string name="references">- 2 Letters of Recommendation</string>
+
+    <string name="buildium_scholarship">Buildium Women in Technology Scholarship</string>
+    <string name="buildium_desc">The Women in Technology Scholarship is available to female students
+        who are enrolled in a product design, interaction design, engineering, and computer science,
+        or user experience design program. One $2,500 scholarship will be awarded each semester to
+        a women who can say which female leader most inspires them to pursue their dreams,
+        and why.</string>
+    <string name="female_student">- Must be a female enrolled in an accredited undergraduate or
+        graduate degree program in Product Design, Interaction Design, UX Design, or
+        Computer Science.</string>
+    <string name="age">- Must be 18 years of age or older and in good academic standing with their
+        college or University</string>
+    <string name="essay">- Essay, 1000 words or less, telling which female leader at a technology
+        company inspires you, and why</string>
+    <string name="how_submit">**All essays can be submitted to scholarship@buildium.com with a
+        subject line of “Women in Technology Scholarship”</string>
+
+    <string name="tapia_conference">ACM Richard Tapia Celebration of Diversity in Computing</string>
+    <string name="tapia_conference_shortened">Tapia Comference</string>
+
+
+
+
+    <string name="motto">Striving for more diversity in the technology industry!</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="join_now">New to TechDiversity? Join Now</string>
+
+    <string name="save_for_later">Save for Later</string>
+    <string name="not_interested">Not Interested</string>
+</resources>
