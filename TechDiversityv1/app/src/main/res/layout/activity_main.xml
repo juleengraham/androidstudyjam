@@ -4,16 +4,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="@dimen/activity_vertical_margin"
     tools:context="com.juleengraham.techdiversityv1.MainActivity">
+
+    <TextView
+        style="@style/OpportunityTitleTheme"
+        android:textSize="28sp"
+        android:text="@string/subtitle"
+        android:typeface="serif" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="left">
+
+        <View
+            android:layout_width="10sp"
+            android:layout_height="80sp"
+            android:background="@color/colorScheme1"></View>
 
         <ImageView
-            android:layout_width="90sp"
-            android:layout_height="90sp"
+            android:layout_width="wrap_content"
+            android:layout_height="80sp"
             android:src="@drawable/tapia"
             android:onClick="setLayoutTapia"/>
 
@@ -24,26 +35,38 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="right">
 
         <TextView
             style="@style/OpportunityTitle2Theme"
-            android:text="@string/hackathon" />
+            android:text="@string/diamond_hacks" />
 
         <ImageView
             android:layout_width="90sp"
-            android:layout_height="90sp"
+            android:layout_height="80sp"
             android:src="@drawable/diamondhacks"
             android:onClick="setLayoutDiamondHacks"/>
+
+        <View
+            android:layout_width="10sp"
+            android:layout_height="80sp"
+            android:background="@color/colorScheme2"></View>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="left">
+
+        <View
+            android:layout_width="10sp"
+            android:layout_height="80sp"
+            android:background="@color/colorScheme1"></View>
 
         <ImageView
-            android:layout_width="180sp"
-            android:layout_height="90sp"
+            android:layout_width="160sp"
+            android:layout_height="80sp"
             android:src="@drawable/code2040"
             android:onClick="setLayoutCode2040"/>
 
@@ -54,7 +77,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="right">
 
         <TextView
             style="@style/OpportunityTitle2Theme"
@@ -62,23 +86,34 @@
 
         <ImageView
             android:layout_width="120sp"
-            android:layout_height="90sp"
+            android:layout_height="80sp"
             android:src="@drawable/microsoft2"
             android:onClick="setLayoutDS3"/>
+
+        <View
+            android:layout_width="10sp"
+            android:layout_height="80sp"
+            android:background="@color/colorScheme2"></View>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:gravity="left">
+
+        <View
+            android:layout_width="10sp"
+            android:layout_height="80sp"
+            android:background="@color/colorScheme1"></View>
 
         <ImageView
-            android:layout_width="180sp"
-            android:layout_height="90sp"
+            android:layout_width="100sp"
+            android:layout_height="80sp"
             android:src="@drawable/buildium_logo"
             android:onClick="setLayoutBuildiumScholarship"/>
 
         <TextView
             style="@style/OpportunityTitle2Theme"
-            android:text="@string/buildium_scholarship" />
+            android:text="@string/buildium_scholarship_shortened" />
     </LinearLayout>
 </LinearLayout>

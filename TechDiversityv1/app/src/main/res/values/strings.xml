@@ -1,12 +1,7 @@
 <resources>
     <string name="app_name">TechDiversity</string>
+    <string name="subtitle">5 Opportunities for Minorities in Tech</string>
 
-    <string name="conference">(Conference)</string>
-    <string name="hackathon">(Hackathon)</string>
-    <string name="fellowship">Fellowship</string>
-    <string name="internship">(Internship)</string>
-    <string name="research">(Research)</string>
-    <string name="scholarship">(Scholarship)</string>
 
     <string name="code2040">Code2040 Fellowship</string>
     <string name="code2040_description">CODE2040\'s flagship program places top performing Black and
@@ -43,6 +38,7 @@
     <string name="references">- 2 Letters of Recommendation</string>
 
     <string name="buildium_scholarship">Buildium Women in Technology Scholarship</string>
+    <string name="buildium_scholarship_shortened">Buildium Scholarship</string>
     <string name="buildium_desc">The Women in Technology Scholarship is available to female students
         who are enrolled in a product design, interaction design, engineering, and computer science,
         or user experience design program. One $2,500 scholarship will be awarded each semester to
@@ -59,10 +55,42 @@
         subject line of “Women in Technology Scholarship”</string>
 
     <string name="tapia_conference">ACM Richard Tapia Celebration of Diversity in Computing</string>
-    <string name="tapia_conference_shortened">Tapia Comference</string>
+    <string name="tapia_conference_shortened">Tapia Conference</string>
+    <string name="tapia_date">September 14 - 17, 2016</string>
+    <string name="tapia_venue">Renaissance Austin Hotel, Austin, Texas</string>
+    <string name="tapia_desc">Tapia Conferences bring together undergraduate and graduate students,
+        faculty, researchers, and professionals in computing from all backgrounds and ethnicities.
+        Attendees celebrate the diversity that exists in computing and are able to connect with
+        others with common backgrounds, ethnicities, disabilities, and gender so as to create
+        communities that extend beyond the conference. The conferences allows articipants to obtain
+        advice from and make contacts with computing leaders in academia and industry, and be
+        inspired by great presentations and conversations with leaders with common backgrounds.</string>
+
+
+    <string name="diamond_hacks">Diamond Hacks</string>
+    <string name="diamond_date">April 16th - 17th, 2016</string>
+    <string name="diamond_venue">Centennial Campus, NC State University, Raleigh, NC</string>
+    <string name="diamond_desc">DiamondHacks 2016 is the second annual hackathon hosted by the
+        Women in Computer Science organization at NC State University for women interested in
+        Computer Science! DiamondHacks is free and open to all women in or interested in computer
+        science.</string>
+    <string name="what_bring">What to Bring</string>
+    <string name="id">- ID</string>
+    <string name="laptop">- Laptop and charger</string>
+    <string name="phone">- Phone and charger</string>
+    <string name="clothes">- A change of clothes</string>
+    <string name="toiletries">- Toiletries</string>
+    <string name="sleeping_bag">- Sleeping bag</string>
+    <string name="register">Register</string>
 
 
 
+    <string name="conference">(Conference)</string>
+    <string name="hackathon">(Hackathon)</string>
+    <string name="fellowship">Fellowship</string>
+    <string name="internship">(Internship)</string>
+    <string name="research">(Research)</string>
+    <string name="scholarship">(Scholarship)</string>
 
     <string name="motto">Striving for more diversity in the technology industry!</string>
 
