@@ -8,11 +8,6 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="80sp"
-            android:src="@drawable/logo" />
-
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +19,7 @@
                 android:src="@drawable/code2040" />
 
             <TextView
-                style="@style/OpportunityTitleTheme"
+                style="@style/OpportunityTitle2Theme"
                 android:text="@string/code2040" />
         </LinearLayout>
 

@@ -3,4 +3,68 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="160sp"
+                android:layout_height="80sp"
+                android:layout_gravity="center"
+                android:src="@drawable/tapia" />
+
+            <TextView
+                style="@style/OpportunityTitleTheme"
+                android:text="@string/tapia_conference"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/DetailsTheme"
+            android:text="@string/tapia_date" />
+
+        <TextView
+            style="@style/DetailsTheme"
+            android:text="@string/tapia_venue" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/mainTextColor"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            style="@style/OpportunityInfoTheme"
+            android:text="@string/tapia_desc"
+            android:textSize="18sp"
+            android:gravity="fill"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <Button
+                style="@style/ActionButtonTheme"
+                android:onClick="openTapiaWeb"
+                android:text="@string/more_info" />
+
+            <Button
+                style="@style/ActionButtonTheme"
+                android:onClick="openTapiaApp"
+                android:text="@string/register" />
+
+            <Button
+                style="@style/ActionButtonTheme"
+                android:onClick="setLayoutDiamondHacks"
+                android:text="@string/next" />
+        </LinearLayout>
+    </LinearLayout>
 </ScrollView>

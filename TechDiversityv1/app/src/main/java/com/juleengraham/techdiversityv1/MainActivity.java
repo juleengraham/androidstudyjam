@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.code2040_layout);
+        setContentView(R.layout.activity_main);
     }
 
     /**
@@ -23,6 +23,34 @@ public class MainActivity extends AppCompatActivity {
     public void openWebsite(String url) {
         Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(browserIntent);
+    }
+
+    /**
+     * This method opens the website for Diamond Hacks
+     */
+    public void openTapiaWeb(View view) {
+        openWebsite("http://tapiaconference.org/");
+    }
+
+    /**
+     * This method opens the online registration for Diamond Hacks
+     */
+    public void openTapiaApp(View view) {
+        openWebsite("http://tapiaconference.org/registration/");
+    }
+
+    /**
+     * This method opens the website for Diamond Hacks
+     */
+    public void openDiamondWeb(View view) {
+        openWebsite("http://www.ncsudiamondhacks.com/");
+    }
+
+    /**
+     * This method opens the online registration for Diamond Hacks
+     */
+    public void openDiamondApp(View view) {
+        openWebsite("https://docs.google.com/forms/d/12wJYUQPzS6QyTQ-PWe_AqUBEP3Hu-VW02u7RQ37EVcM/viewform?c=0&w=1");
     }
 
     /**
